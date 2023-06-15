@@ -1,0 +1,48 @@
+.bookspreview
+{
+  
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 10px;
+}
+.container
+
+{
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap : wrap;
+
+  justify-content: space-around;
+
+  align-content: space-around;
+
+  gap: 15px 15px;
+  
+
+}
+img{
+height: 200px;
+width:100px;
+border-radius: 10px;
+}
+
+.card {
+  
+  margin-right:auto;
+  color: #050505;
+  position: relative;
+  display: flex;
+  width: 20rem;
+  padding: 20px;
+  border-radius: 0.25rem; 
+  
+}
+
+.card-text {
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: solid;
+}
