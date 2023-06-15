@@ -1,0 +1,6 @@
+
+FROM openjdk:8               
+VOLUME /tmp                  
+EXPOSE 8080                   
+ADD target/BookCart-0.0.1-SNAPSHOT.jar BookCart-0.0.1-SNAPSHOT.jar 
+ENTRYPOINT ["java","-jar","/BookCart-0.0.1-SNAPSHOT.jar"]              # command to execute jar
